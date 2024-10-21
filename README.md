@@ -41,7 +41,7 @@ services:
     # ...Other configuration here
     command:
       # The first five lines are the default setting - if you specify your own flags, add them...
-      - onetagger # Run onetagger
+      - onetagger-cli # Run onetagger
       - server # Run headlessly (No UI, serve app over HTTP instead)
       - --expose # Listen on 0.0.0.0:36913 (any ip:36913) instead of localhost:36913 (local machine only)
       - --path
